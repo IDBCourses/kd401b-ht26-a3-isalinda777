@@ -1,0 +1,46 @@
+:root {
+  --purple600: #3b172f;
+  --purple500: #61254e;
+  --purple400: #85336b;
+  --purple300: #aa4188;
+  --purple200: #c15da0;
+  --purple100: #cf82b5;
+
+  --blue600: #306ca6;
+  --blue500: #4185c8;
+  --blue400: #699fd4;
+  --blue300: #90b8df;
+  --blue200: #b7d1ea;
+  --blue100: #dfebf6;
+
+  --neutrals600: #171519;
+  --neutrals500: #302c34;
+  --neutrals400: #635b6c;
+  --neutrals300: #968e9f;
+  --neutrals200: #c9c5ce;
+  --neutrals100: #fcfcfd;
+}
+
+p,
+a {
+  font-size: 20px;
+  color: var(--blue200);
+}
+body {
+  background-color: var(--purple500);
+}
+h1,
+h2,
+h3,
+h4,
+ul {
+  color: var(--blue300);
+}
+button {
+  background-color: var(--blue200);
+  color: var(--neutrals500);
+}
+button:hover {
+  background-color: var(--purple500);
+  color: var(--neutrals100);
+}
