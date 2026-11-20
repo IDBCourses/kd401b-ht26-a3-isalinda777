@@ -1,0 +1,23 @@
+:root {
+  --font-body: "Atkinson Hyperlegible", sans-serif;
+  --font-heading: "Atkinson Hyperlegible", sans-serif;
+
+  --size-body: 1.25rem;
+  --leading-body: 1.8;
+  --tracking-body: 0.02em;
+  --measure: 55ch;
+}
+
+h1 {
+  font-weight: 450;
+  font-stretch: 110%;
+  font-variation-settings:
+    "opsz" 14,
+    "GRAD" 50;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--size-body);
+  line-height: var(--leading-body);
+}
